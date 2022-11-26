@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from localhost/marketting/home/login by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Apr 2021 18:34:49 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+  <title>XeroChat | Login</title>
+  <link rel="shortcut icon" href="../assets/img/favicon.png">
+
+  <link href="xit_load_files/css/bootstrap.min.css" rel="stylesheet">
+  <link href="xit_load_files/css/bootstrap-social.css" rel="stylesheet">
+  <link href="xit_load_files/css/all.min.css" rel="stylesheet">
+  <link href="xit_load_files/css/v4-shims.min.css" rel="stylesheet">
+  <link href="xit_load_files/css/style.css" rel="stylesheet">
+  <link href="xit_load_files/css/components.css" rel="stylesheet">
+  <link href="xit_load_files/css/custom.css" rel="stylesheet">
+
+  <script src="xit_load_files/js/jquery.min.js"></script>
+  <script src="xit_load_files/js/sweetalert.min.js"></script>
+
+</head>
+
+<body>
+  <div id="app">
+    <section class="section">
+      <div class="container mt-5">
+  <div class="row">
+    <div class="col-12 col-sm-8 offset-sm-2 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3">
+      <div class="login-brand">
+        <a href="../index.html"><img src="../assets/img/logo.png" alt="XeroChat" width="200"></a>
+      </div>
+
+      <div class="card card-primary">
+        <div class="card-header"><h4><i class="fas fa-sign-in-alt"></i> Login</h4></div>
+                <div class="card-body">
+          <form method="POST" action="http://localhost/marketting/home/login" class="needs-validation" novalidate="">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" type="email" value="" class="form-control" name="username" tabindex="1" required autofocus>
+              <!-- <div class="invalid-feedback">
+                Please fill in your email
+              </div> -->
+            </div>
+
+            <div class="form-group">
+              <div class="d-block">
+              	<label for="password" class="control-label">Password</label>
+                <div class="float-right">
+                  <a href="forgot_password.html" class="text-small">
+                    Forgot your password?                  </a>
+                </div>
+              </div>
+              <input id="password" type="password"value=""  class="form-control" name="password" tabindex="2" required>
+              <input type="hidden" name="csrf_token" id="csrf_token" value="89daec88c22d1ed16f5178cda632f4ff9fc53c6069594eccd8d1131631ec5739">
+              <!-- <div class="invalid-feedback">
+                please fill in your password
+              </div> -->
+            </div>
+
+            <!-- <div class="form-group">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" name="remember" class="custom-control-input" tabindex="3" id="remember-me">
+                <label class="custom-control-label" for="remember-me">Remember Me</label>
+              </div>
+            </div> -->
+
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-lg btn-block login_btn" tabindex="4">
+                <i class="fa fa-sign-in-alt"></i> Login              </button>
+            </div>
+          </form>
+          
+                    <div class="row sm-gutters">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6" style="padding-top: 15px;">
+            	             </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6" style="padding-top: 15px;">
+            	<a class="btn btn-block btn-social btn-facebook" href="https://www.facebook.com/v4.0/dialog/oauth?client_id=1&amp;state=197da5d08d7785f8afcc9d348139dacb&amp;response_type=code&amp;sdk=php-sdk-5.2.0&amp;redirect_uri=http%3A%2F%2Flocalhost%2Fmarketting%2Fhome%2Ffacebook_login_back&amp;scope=email%2Cpages_manage_posts%2Cpages_manage_engagement%2Cpages_manage_metadata%2Cpages_read_engagement%2Cpages_show_list%2Cpages_messaging%2Cpublic_profile%2Cread_insights%2Cinstagram_basic%2Cinstagram_manage_comments%2Cinstagram_manage_insights%2Cinstagram_content_publish"><span class="fab fa-facebook"></span> Login with Facebook</a>            </div>
+
+            <div class="col-12">
+	             <div class="text-muted text-center">
+	            	<br>Do not have an account? <a href="sign_up.html">Create one</a>
+	        	</div>
+	      	 </div>
+          </div>
+	      	
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+  </div>
+</body>
+
+ 
+ 

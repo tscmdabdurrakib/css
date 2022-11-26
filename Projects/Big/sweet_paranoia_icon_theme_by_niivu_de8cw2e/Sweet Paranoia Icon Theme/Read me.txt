@@ -1,0 +1,14 @@
+///Sweet Paranoia by niivu///
+
+A Linux icon suite ported to Windows.  Includes iPack or 7tsp installation methods.
+
+CREDITS TO ELIVERLARA FOR THE ICONS.
+https://www.gnome-look.org/p/1253385/
+
+Ported by niivu
+https://www.deviantart.com/niivu
+
+Please read all included instructions prior to installing.
+I'm not responsible for anyone bricking there systems.
+
+-niivu

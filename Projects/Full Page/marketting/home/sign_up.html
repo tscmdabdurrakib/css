@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from localhost/marketting/home/sign_up by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Apr 2021 18:35:18 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+  <title>XeroChat | Sign up</title>
+  <link rel="shortcut icon" href="../assets/img/favicon.png">
+
+  <link href="xit_load_files/css/bootstrap.min.css" rel="stylesheet">
+  <link href="xit_load_files/css/bootstrap-social.css" rel="stylesheet">
+  <link href="xit_load_files/css/all.min.css" rel="stylesheet">
+  <link href="xit_load_files/css/v4-shims.min.css" rel="stylesheet">
+  <link href="xit_load_files/css/style.css" rel="stylesheet">
+  <link href="xit_load_files/css/components.css" rel="stylesheet">
+  <link href="xit_load_files/css/custom.css" rel="stylesheet">
+
+  <script src="xit_load_files/js/jquery.min.js"></script>
+  <script src="xit_load_files/js/sweetalert.min.js"></script>
+
+</head>
+
+<body>
+  <div id="app">
+    <section class="section">
+      <div class="container mt-5">
+  <div class="row">
+    <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3">
+      <div class="login-brand">
+        <a href="../index.html"><img src="../assets/img/logo.png" alt="XeroChat" width="200"></a>
+      </div>
+
+      <div class="card card-primary">
+        <div class="card-header"><h4><i class="far fa-user-circle"></i> Sign up</h4></div>
+
+        <div class="card-body">
+          
+
+          <form method="POST" action="http://localhost/marketting/home/sign_up_action">
+            <input type="hidden" name="csrf_token" id="csrf_token" value="89daec88c22d1ed16f5178cda632f4ff9fc53c6069594eccd8d1131631ec5739">
+            <div class="row">
+              <div class="form-group col-6">
+                <label for="frist_name">Name *</label>
+                <input id="name" type="text" class="form-control" name="name" autofocus required value="">
+              </div>
+              <div class="form-group col-6">
+                <label for="last_name">Email *</label>
+                <input id="email" type="email" class="form-control" name="email" required value="">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-group col-6">
+                <label for="password" class="d-block">Password *</label>
+                <input id="password" type="password" class="form-control" required name="password" value="">
+              </div>
+              <div class="form-group col-6">
+                <label for="password2" class="d-block">Confirm password *</label>
+                <input id="password2" type="password" class="form-control" required name="confirm_password" value="">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-group col-12" style="margin-bottom:0">
+                <label>Captcha *</label>
+              </div>
+            </div>                  
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">1+1 = ?</span>
+              </div>
+              <input type="number" class="form-control" required name="captcha" placeholder="Put your answer here" >
+            </div>      
+
+            <div class="form-group">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" name="agree" required class="custom-control-input" id="agree">
+                <label class="custom-control-label" for="agree"><a target="_BLANK" href="terms_use.html">I agree with the terms and conditions</a></label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-lg btn-block">
+                <i class="fa fa-user-circle"></i> Sign up              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>    </section>
+  </div>
+</body>
+
+ 
+ 

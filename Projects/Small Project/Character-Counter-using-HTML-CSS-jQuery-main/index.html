@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Character Counter using jQuery | Brave Coder</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h3>Character Counter</h3>
+        <textarea id="count_value" cols="30" rows="10"></textarea>
+        <br>
+        <span id="count_no">0</span>
+        <br clear="both">
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#count_value").on("keyup", function(){
+                $("#count_no").text($("#count_value").val().length)
+            });
+        });
+    </script>
+</body>
+</html>

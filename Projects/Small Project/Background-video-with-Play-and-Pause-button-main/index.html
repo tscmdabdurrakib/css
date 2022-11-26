@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .wrapper {
+            width: 100%;
+            height: 100vh;
+        }
+
+        #video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: relative;
+            z-index: -1;
+        }
+
+        #btn {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            cursor: pointer;
+            outline: none;
+            color: white;
+            background: royalblue;
+            padding: 10px;
+            width: 100px;
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            transform: translate(-50%);
+        }
+
+        .content {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            text-align: center;
+            color: white;
+            transform: translate(-50%);
+        }
+    </style>
+    <title>How to create Background video using HTML, CSS & JavaScript | National Coding</title>
+</head>
+<body>
+   <div class="wrapper">
+       <button id="btn" onclick="myFunction()"><i class="fa fa-pause" aria-hidden="true"></i> Pause</button>
+       <video src="video.mp4" autoplay muted loop id="video"></video>
+       <div class="content">
+           <h2>National Coding</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ipsum? Debitis sit omnis maxime rem rerum iure quidem suscipit, similique quas perspiciatis ut temporibus, eaque ratione hic. Tempora, quibusdam in!</p>
+       </div>
+   </div>
+
+   <script>
+       var vid = document.getElementById('video');
+       var btn = document.getElementById('btn');
+
+       function myFunction() {
+           if (vid.paused) {
+               vid.play();
+               btn.innerHTML = '<i class="fa fa-pause" aria-hidden="true"></i> Pause';
+           } else {
+                vid.pause();
+                btn.innerHTML = '<i class="fa fa-play" aria-hidden="true"></i> Play';
+           }
+       }
+   </script>
+</body>
+</html>

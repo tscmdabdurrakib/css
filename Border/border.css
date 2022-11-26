@@ -1,0 +1,5 @@
+p.dotted {
+  border-width: thick;
+  border-style: dotted dashed solid double;
+  border-color: blue;
+}

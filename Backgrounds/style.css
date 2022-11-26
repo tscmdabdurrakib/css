@@ -1,0 +1,56 @@
+/* bg color */
+
+/* .bg-color {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightgreen;
+} */
+
+/* bg image  */
+
+/* .bg-image {
+  width: 600px;
+  height: 600px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/8112/8112719.png");
+  border: 3px solid lightseagreen;
+} */
+
+/* bg repeat  */
+
+/* .bg-repeat {
+  width: 600px;
+  height: 600px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/8112/8112719.png");
+  border: 3px solid lightseagreen;
+  background-repeat: no-repeat;
+} */
+
+/* background Attachment  */
+
+/* .bg-attachment {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/8112/8112719.png");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+} */
+
+/* .bg-attachment {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/8112/8112719.png");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+} */
+
+.bg-attachment {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/8112/8112719.png");
+  width: 500px;
+  height: 500px;
+  border: 5px solid blue;
+  background-repeat: no-repeat;
+  overflow: auto;
+  background-attachment: local;
+}

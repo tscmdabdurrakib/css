@@ -1,0 +1,4 @@
+ul > li {
+  list-style-image: url("https://cdn-icons-png.flaticon.com/512/9027/9027706.png");
+  margin: 100px auto 0 auto;
+}

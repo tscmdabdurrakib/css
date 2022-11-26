@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+.box1 {
+  margin: 10px auto 0 auto;
+  width: 300px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 18px;
+  font-family: Poppins;
+  background-color: rgba(255, 60, 0, 0.966);
+}
+.box1:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 25px blue;
+}
+
+.box2 {
+  margin: 10px auto 0 auto;
+  width: 300px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 18px;
+  font-family: Poppins;
+  background-color: rgba(255, 60, 0, 0.966);
+}
+.box2:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 30px blue inset;
+}
